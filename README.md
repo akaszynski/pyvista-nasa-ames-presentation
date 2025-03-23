@@ -29,7 +29,7 @@ On Windows, use a distribution like [MiKTeX](http://miktex.org/). See [Get LaTeX
 Clone this repository with:
 ```
 git clone https://github.com/akaszynski/pyvista-nasa-ames-presentation
-cd techcon-2022-pyvista
+cd pyvista-nasa-ames-presentation
 ```
 
 Build with:
