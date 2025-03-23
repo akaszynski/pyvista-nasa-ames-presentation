@@ -1,0 +1,15 @@
+package ansys.api.mapdl.v0;
+
+message CmdRequest
+{
+  string			command = 1;
+  string			opt     = 2;
+}
+...
+// Describe the service
+service MapdlService{ 
+  rpc SendCommand(CmdRequest)              returns (CmdResponse);
+  rpc SendCommandS(CmdRequest)             returns (stream CmdOutput);
+  rpc UploadFile(stream UploadFileRequest) returns (UploadFileReply);
+  rpc DownloadFile( DownloadFileRequest)   returns (stream kernel.v0.Chunk);
+}
