@@ -1,7 +1,9 @@
 BUILD = ./build
 
 build:
-	latexmk -pdflatex=lualatex -pdf nasa_pyvista_seminar_2025.tex -interaction=nonstopmode --shell-escape -outdir=$(BUILD) -use-make
+	mkdir -p build
+	lualatex -interaction=nonstopmode --shell-escape -output-directory=$(BUILD) nasa_pyvista_seminar_2025.tex || true
+	latexmk -pdflatex=lualatex -pdf nasa_pyvista_seminar_2025.tex -interaction=nonstopmode --shell-escape -outdir=$(BUILD)
 
 clean:
 	rm -rf $(BUILD)
