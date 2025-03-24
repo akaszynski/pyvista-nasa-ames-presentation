@@ -9,7 +9,7 @@ Please visit the [PyVista Tutorial](https://tutorial.pyvista.org/) for more deta
 
 Visit [nasa_pyvista_seminar_2025.pdf](https://akaszynski.github.io/pyvista-nasa-ames-presentation/nasa_pyvista_seminar_2025.pdf) to see the full generated presentation.
 
-[![nasa_pyvista_seminar_2025.pdf](figures/for_readme.png)](https://akaszynski.github.io/pyvista-nasa-ames-presentation/nasa_pyvista_seminar_2025.pdf)
+[![nasa_pyvista_seminar_2025.pdf](figures/for-readme.png)](https://akaszynski.github.io/pyvista-nasa-ames-presentation/nasa_pyvista_seminar_2025.pdf)
 
 ## Build it Yourself
 
