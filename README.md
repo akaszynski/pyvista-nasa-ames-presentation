@@ -7,9 +7,9 @@ Please visit the [PyVista Tutorial](https://tutorial.pyvista.org/) for more deta
 
 ### View the Presentation
 
-Visit [nasa_pyvista_seminar_2025.pdf](nasa_pyvista_seminar_2025.pdf) to see the full generated presentation.
+Visit [nasa_pyvista_seminar_2025.pdf](https://akaszynski.github.io/pyvista-nasa-ames-presentation/nasa_pyvista_seminar_2025.pdf) to see the full generated presentation.
 
-[![nasa_pyvista_seminar_2025.pdf](figures/for_readme.png)](nasa_pyvista_seminar_2025.pdf)
+[![nasa_pyvista_seminar_2025.pdf](figures/for_readme.png)](https://akaszynski.github.io/pyvista-nasa-ames-presentation/nasa_pyvista_seminar_2025.pdf)
 
 ## Build it Yourself
 
@@ -39,3 +39,14 @@ make
 ```
 
 This will output `nasa_pyvista_seminar_2025.pdf` in the `build` directory.
+
+Real-time incrementally build with:
+```
+make watch
+```
+
+Clear the build with:
+
+```
+make clear
+```
